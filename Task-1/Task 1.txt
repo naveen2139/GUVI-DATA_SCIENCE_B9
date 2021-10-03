@@ -1,0 +1,15 @@
+1.	Read- name, college, dept,5 marks
+2.	Calculate total marks, 
+3.	Calculate average, grade
+4.	Display Menu
+1.	Add Student – insert into student
+2.	Get a student- get details regarding single student- get student id – if found display else error
+3.	Get all students- display all students
+4.	Update Student- get id, validate present or not, if yes, display his details-update all his values
+5.	Delete student-get id, delete if present 
+6.	Exit- stop program
+
+
+CREATE TABLE STUDENT(NAME VARCHAR(20) ,ID INT AUTO_INCREMENT PRIMARY KEY,COLLEGE VARCHAR(20),DEPARTMENT VARCHAR(20),c_marks VARCHAR(20),dse_marks VARCHAR(20),python_marks VARCHAR(20),java_marks VARCHAR(20),php_marks VARCHAR(20), TOTAL INT,AVERAGE INT, GRADE CHARACTER)
+INSERT INTO `student`(`NAME`, `COLLEGE`, `DEPARTMENT`, `c_marks`, `dse_marks`, `python_marks`, `java_marks`, `php_marks`, `TOTAL`, `AVERAGE`, `GRADE`) VALUES ('NAVEEN','RGM','CSE',90,90,90,90,90,450,90,'A');
+

@@ -1,0 +1,42 @@
+See the first 5 entries:
+            code  ... water-hardness_100g
+0  0000000003087  ...                 NaN
+1  0000000004530  ...                 NaN
+2  0000000004559  ...                 NaN
+3  0000000016087  ...                 NaN
+4  0000000016094  ...                 NaN
+
+[5 rows x 163 columns]
+
+What is the number of observations in the dataset?
+(356027, 163)
+
+What is the number of rows in the dataset?
+356027
+
+What is the number of columns in the dataset?
+163
+
+Print the name of all the columns.
+Index(['code', 'url', 'creator', 'created_t', 'created_datetime',
+       'last_modified_t', 'last_modified_datetime', 'product_name',
+       'generic_name', 'quantity',
+       ...
+       'fruits-vegetables-nuts_100g', 'fruits-vegetables-nuts-estimate_100g',
+       'collagen-meat-protein-ratio_100g', 'cocoa_100g', 'chlorophyl_100g',
+       'carbon-footprint_100g', 'nutrition-score-fr_100g',
+       'nutrition-score-uk_100g', 'glycemic-index_100g',
+       'water-hardness_100g'],
+      dtype='object', length=163)
+
+What is the name of 105th column?
+-glucose_100g
+
+What is the type of the observations of the 105th column?
+float64
+
+How is the dataset indexed?
+RangeIndex(start=0, stop=356027, step=1)
+
+What is the product name of the 19th observation?
+Lotus Organic Brown Jasmine Rice
